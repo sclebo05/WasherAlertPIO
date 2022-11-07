@@ -7,14 +7,10 @@
 //borrowed initial reed switch code from https://lastminuteengineers.com/reed-switch-arduino-tutorial/
 //also borrowed from https://esp32io.com/tutorials/esp32-door-sensor as well
 
-const int buttonPin = 18;   // pin connected to button, to ground
-const int blueLED = 15; //external LED
 BfButton btn(BfButton::STANDALONE_DIGITAL, buttonPin, true, LOW);
-const int sensorPin = 35;  // Pin connected to reed switch
-int timer = 15;
+CountDown CD(CountDown::SECONDS);
 bool washing = false;
 bool messagesent = false;   // limit sending of texts
-CountDown CD(CountDown::SECONDS);
 
 Twilio *twilio;
 //WiFiUDP ntpUDP;

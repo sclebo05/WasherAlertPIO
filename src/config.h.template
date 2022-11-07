@@ -6,3 +6,8 @@ static const char *auth_token = "dsfkdsajflkfjdslfdskfsf";
 static const char *from_number = "+11111111111";
 static const char *to_number = "+22222222222222222";
 static const char *message = "LAUNDRY COMPLETED \U0001F9FA";
+
+const int buttonPin = 18;   // pin connected to button, to ground
+const int blueLED = 15; //external LED
+const int sensorPin = 35;  // Pin connected to reed switch
+int timer = 15;  // timer
