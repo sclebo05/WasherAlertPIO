@@ -1,0 +1,8 @@
+// Wifi and Twilio Info - keep secret
+static const char *ssid = "mywifi";
+static const char *password = "wifipass";
+static const char *account_sid = "Abcdefghijk";
+static const char *auth_token = "dsfkdsajflkfjdslfdskfsf";
+static const char *from_number = "+11111111111";
+static const char *to_number = "+22222222222222222";
+static const char *message = "LAUNDRY COMPLETED \U0001F9FA";

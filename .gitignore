@@ -7,3 +7,4 @@ include
 lib
 test
 .vscode
+src/config.h
