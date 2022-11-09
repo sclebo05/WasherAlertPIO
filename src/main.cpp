@@ -68,7 +68,7 @@ void sendit() {
 }
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
   Serial.println(" ");
   Serial.println("*** System Starting ***");
   //pinMode(sensorPin, INPUT_PULLUP);	// Enable internal pull-up for the reed switch
